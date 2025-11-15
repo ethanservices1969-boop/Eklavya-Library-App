@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eklavya Library App</title>
+<link rel="stylesheet" href="style.css" />
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- HEADER -->
+    <header>
+        <h1>Eklavya Library</h1>
+        <p>Total Seats: <span id="totalSeats">61</span></p>
+    </header>
+
+    <!-- ADD STUDENT SECTION -->
+    <section class="card">
+        <h2>Add Student</h2>
+
+        <input id="studentName" type="text" placeholder="Student Name" />
+        <input id="studentPhone" type="text" placeholder="Phone Number" />
+        <input id="studentFee" type="number" placeholder="Fee Amount" />
+
+        <button onclick="addStudent()">Add Student</button>
+    </section>
+
+    <!-- SEAT ALLOCATION -->
+    <section class="card">
+        <h2>Seat Allocation</h2>
+
+        <input id="seatNumber" type="number" placeholder="Seat No." />
+        <input id="seatStudent" type="text" placeholder="Student Name" />
+
+        <button onclick="allotSeat()">Allot Seat</button>
+        <button class="danger" onclick="emptySeat()">Empty Seat</button>
+    </section>
+
+    <!-- ENQUIRY -->
+    <section class="card">
+        <h2>Search / Enquiry</h2>
+
+        <input id="searchInput" type="text" placeholder="Search Name / Seat" />
+        <button onclick="searchData()">Search</button>
+
+        <p id="searchResult"></p>
+    </section>
+
+    <!-- STUDENT LIST -->
+    <section class="card">
+        <h2>All Students</h2>
+
+        <div id="studentList"></div>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

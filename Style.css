@@ -1,0 +1,88 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f3f3f3;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* BUTTONS */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+button.danger {
+    background: #d43535;
+}
+
+/* STUDENT LIST */
+#studentList {
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 8px;
+}
+
+#studentList div {
+    background: #eee;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}

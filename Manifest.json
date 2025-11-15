@@ -1,0 +1,21 @@
+{
+  "name": "Eklavya Library App",
+  "short_name": "EklavyaLibrary",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#222222",
+  "description": "Seat Management + Fees Tracking + Student Records App for Eklavya Library",
+  "icons": [
+    {
+      "src": "assets/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

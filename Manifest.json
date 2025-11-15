@@ -1,11 +1,13 @@
 {
   "name": "Eklavya Library",
   "short_name": "Library",
-  "description": "A student library management app to manage seats, fees, student data and enquiries.",
-  "start_url": "index.html",
+  "description": "A library management app for students, with seat management, fees tracking and enquiry system.",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#4A90E2",
+  "theme_color": "#2C4BFF",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "assets/icon192.png",
